@@ -51,34 +51,9 @@
    ```bash
    npx cypress open
    ```
-2. Cypress GUI akan terbuka, dan Anda dapat memilih file test untuk dijalankan.
+2. Cypress GUI akan terbuka, pilih `E2E Testing` 
+3. Pilih `Chrome` sebagai browser 
+4. Klik tombol `Start E2E Testing in Chrome`
+5. Anda dapat memilih file test untuk dijalankan.
 
 ---
-
-## **5. Konfigurasi Project**
-1. Pastikan file konfigurasi Cypress (`cypress.config.js` atau `cypress.json`) sudah sesuai dengan kebutuhan proyek.
-2. Cek folder `cypress/integration` (atau `cypress/e2e` pada versi terbaru Cypress) untuk memastikan file test yang ingin dijalankan tersedia.
-
----
-
-## **6. Jalankan Test**
-1. Untuk menjalankan semua test melalui CLI:
-   ```bash
-   npx cypress run
-   ```
-2. Untuk menjalankan test spesifik:
-   ```bash
-   npx cypress run --spec "path/to/your/spec-file.js"
-   ```
-
----
-
-## **7. Debugging dan Laporan**
-1. Jika ada error, periksa log di terminal atau laporan error di Cypress GUI.
-2. Hasil test (video dan screenshot) biasanya disimpan di folder berikut:
-   - Video: `cypress/videos`
-   - Screenshot: `cypress/screenshots`
-
----
-
-Untuk detail tambahan atau kendala lain, silakan baca dokumentasi lebih lanjut di [Cypress Documentation](https://docs.cypress.io).
